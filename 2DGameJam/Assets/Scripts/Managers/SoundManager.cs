@@ -15,7 +15,12 @@ public class SoundManager : MonoBehaviour
 
     public void changeVolume(float volume)
     {
+        gameAudio.mute = false;
         gameAudio.volume = volume;
+        if (volume == 0)
+        {
+            gameAudio.mute = true;
+        }
     }
 
     public void MuteOnOff()
