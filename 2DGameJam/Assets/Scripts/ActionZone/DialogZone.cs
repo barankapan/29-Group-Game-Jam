@@ -11,6 +11,11 @@ public class DialogZone : MonoBehaviour
     private void Start()
     {
         layerMask = LayerMask.GetMask("Player");
+        if (!dialog)
+        {
+            Debug.Log("Dialog is empty");
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void FixedUpdate()

@@ -6,12 +6,17 @@ public class PlayerTest : MonoBehaviour
 {
     public static PlayerTest instance;
     [SerializeField] private int health = 100;
+    [SerializeField] private int arrowCount = 0;
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
     private void Awake()
     {
         instance = this;
+    }
+    private void Start()
+    {
         UIManager.Instance.UpdateHealthBar(health);
+        UIManager.Instance.UpdateArrowCount(arrowCount);
     }
     private void Update()
     {

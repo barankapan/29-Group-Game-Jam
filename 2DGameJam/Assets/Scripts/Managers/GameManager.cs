@@ -11,13 +11,22 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private CinemachineVirtualCamera[] CamList;
 
+    [Header("PLAYER")]
+    [SerializeField]
+    private Transform Player;
+
     private void Awake()
     {
         Instance = this;
     }
     private void Start()
     {
+        if (Player == null)
+        {
+            Player = FindObjectOfType<PlayerTest>().transform;
+        }
         GameState.changeState(state.play);
+        ChangeCamera(cameraType.GameplayCamera, Player, Vector3.zero);
     }
 
     public void ChangeCamera(cameraType type, Transform target, Vector3 pos)

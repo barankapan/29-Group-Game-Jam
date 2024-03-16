@@ -49,10 +49,7 @@ public class DamageZone : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        if (isPlayerClose)
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireCube(transform.position, ZoneSize);
-        }
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(transform.position, ZoneSize);
     }
 }
