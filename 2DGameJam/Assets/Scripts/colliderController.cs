@@ -26,14 +26,6 @@ public class colliderController : MonoBehaviour
             animator.SetBool("Run", true); // Hareket ediliyorsa Run'u true yap
             animator.SetBool("Idle", false); // Idle animasyonunu kapat
 
-            if (yatayHareket < 0f)
-            {
-                spriteRenderer.flipX = true; // Sol tarafa hareket ediliyorsa sprite'ı çevir
-            }
-            else
-            {
-                spriteRenderer.flipX = false; // Sağ tarafa hareket ediliyorsa sprite'ı çevirme
-            }
 
             // Collider'ları ayarla
             runCollider.enabled = true;
