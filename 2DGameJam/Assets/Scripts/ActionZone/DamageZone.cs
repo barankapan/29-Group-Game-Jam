@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -55,6 +54,5 @@ public class DamageZone : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireCube(transform.position, ZoneSize);
         }
-
     }
 }
