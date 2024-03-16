@@ -43,6 +43,15 @@ public class characterController : MonoBehaviour
             animator.SetBool("Jump", false);
         }
 
+        if (Input.GetKey(KeyCode.F))
+        {
+            animator.SetBool("Archery", true);
+        }
+        else
+        {
+            animator.SetBool("Archery", false);
+        }
+
         // Run animasyonunu kontrol et
         if (yatayHareket != 0f)
         {
