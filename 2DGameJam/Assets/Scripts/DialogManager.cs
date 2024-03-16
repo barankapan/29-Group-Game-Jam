@@ -14,14 +14,9 @@ public class DialogManager : MonoBehaviour
 
     private void Awake()
     {
-        if (!instance)
-        {
-            instance = this;
-        }
+        instance = this;
         DialogPanel.SetActive(false);
     }
-
-
     private void DialogExecute(Dialog obj)
     {
         DialogPanel.SetActive(true);

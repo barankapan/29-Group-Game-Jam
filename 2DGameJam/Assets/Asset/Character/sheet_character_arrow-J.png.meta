@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2b6c17cfd0f8041c48c9ef98e14ee1c5
+guid: 9faf6421776744403aeb2755828cfaa6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -7,7 +7,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,17 +43,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
-  spriteExtrude: 0
+  spriteMode: 2
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 55, y: 32, z: 21, w: 65}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -134,31 +134,106 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline:
-    - - {x: -40, y: -224}
-      - {x: -40, y: 46}
-      - {x: 752, y: 46}
-      - {x: 752, y: -224}
-    physicsShape:
-    - - {x: -371, y: 57.5}
-      - {x: -371, y: 86.5}
-      - {x: 272, y: 182.5}
-      - {x: 427, y: 79.5}
-      - {x: 354, y: -162.5}
-    - - {x: -345, y: 124.5}
-      - {x: -345, y: 129.5}
-      - {x: -102, y: 129.5}
-      - {x: -102, y: 124.5}
+    sprites:
+    - serializedVersion: 2
+      name: sheet_character_arrow-J_0
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1556
+        width: 262
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8eed9e44e3de4e1a8274247a224f33d
+      internalID: -30605779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_character_arrow-J_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1026
+        width: 263
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b618fc4637afe4c4ea2cee05c3937e73
+      internalID: -855131034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_character_arrow-J_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1024
+        width: 256
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba2173b246454d809ab49ccb54605ac
+      internalID: -1228957321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_character_arrow-J_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1024
+        width: 256
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b261660b5404666a63f4ef252b22e2
+      internalID: -890827670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sheet_character_arrow-J_0: -30605779
+      sheet_character_arrow-J_1: -855131034
+      sheet_character_arrow-J_2: -1228957321
+      sheet_character_arrow-J_3: -890827670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -5,12 +5,13 @@ using UnityEngine;
 public class PlayerTest : MonoBehaviour
 {
     public static PlayerTest instance;
-    [SerializeField] private int Health = 100;
+    [SerializeField] private int health = 100;
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
     private void Awake()
     {
         instance = this;
+        UIManager.Instance.UpdateHealthBar(health);
     }
     private void Update()
     {
@@ -28,11 +29,12 @@ public class PlayerTest : MonoBehaviour
 
     public void getDamage(int damage)
     {
-        Health -= damage;
-        if (Health < 0)
+        health -= damage;
+        if (health <= 0)
         {
             GameState.changeState(state.pause);
         }
+        UIManager.Instance.UpdateHealthBar(health);
     }
     public Vector3 getPosition()
     {
