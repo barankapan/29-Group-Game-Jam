@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25ced186f57dd43408bd7d64a33f61fe
+guid: a5cf6747b6f12bf4e8f156575b8a32ee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -106,472 +106,509 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: platform2Sheet_0
+      name: LowAttack_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 1731
-        width: 347
-        height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7e65a74678f84932a8b103c7752d292
-      internalID: 852741801
+      spriteID: b46e3649528ce6f418d56d8a02c83cde
+      internalID: -448236761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_1
+      name: LowAttack_1
       rect:
         serializedVersion: 2
-        x: 492
-        y: 1772
-        width: 249
-        height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67c5be4066e124fb885277b19ff1b69e
-      internalID: 2137336713
+      spriteID: 13f5e0264ae30784cb6f77541ea0ab7b
+      internalID: 1913372676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_2
+      name: LowAttack_2
       rect:
         serializedVersion: 2
-        x: 840
-        y: 1702
-        width: 255
-        height: 165
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b49c3d2ed0de34353a0d1bcc038093fd
-      internalID: -1297511403
+      spriteID: 5fc8db07f091c484cad5cf9ed73a2fb8
+      internalID: 900222911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_3
+      name: LowAttack_3
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 1732
-        width: 340
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9972e395e3da5481598784c6da5461c1
-      internalID: 1520441743
+      spriteID: e6e045fb0b4cc304e891fae34619fdfb
+      internalID: 500051588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_4
+      name: LowAttack_4
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 1727
-        width: 221
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 745a5baba3a8c4e398eb4467775f52d0
-      internalID: 379811107
+      spriteID: 3bfab281975580f44b6520f8c7502f28
+      internalID: 512389702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_5
+      name: LowAttack_5
       rect:
         serializedVersion: 2
-        x: 1912
-        y: 1730
-        width: 166
-        height: 162
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1244b0696128240799967e979719424b
-      internalID: 897787095
+      spriteID: de0499b612961f648aae58bc01088e57
+      internalID: -453162576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_6
+      name: LowAttack_6
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1380
-        width: 523
-        height: 188
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6894b3ac65bfe4734bd08b52b89e169d
-      internalID: -130408425
+      spriteID: ce60c734934a4c944b72b7b78bf44418
+      internalID: 62756489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_7
+      name: LowAttack_7
       rect:
         serializedVersion: 2
-        x: 627
-        y: 1379
-        width: 536
-        height: 189
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11ded7dba3415443384693b0ce714dd1
-      internalID: -2085217484
+      spriteID: 9efe948edd0bb9c40a9b956318b65d79
+      internalID: 631554345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_8
+      name: LowAttack_8
       rect:
         serializedVersion: 2
-        x: 1222
-        y: 1380
-        width: 412
-        height: 187
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2fc13079da9744808e54ae6530614d1
-      internalID: -869511597
+      spriteID: 9014326c2454a994f88ad8fe4de832d6
+      internalID: -527615584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_9
+      name: LowAttack_9
       rect:
         serializedVersion: 2
-        x: 1684
-        y: 1382
-        width: 406
-        height: 186
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c41c7efe7f79b44069ef27549bbae8dd
-      internalID: -1783870756
+      spriteID: bf98741255b88344592cdc39ce66a674
+      internalID: -1109155609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_10
+      name: LowAttack_10
       rect:
         serializedVersion: 2
-        x: 39
-        y: 1054
-        width: 481
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccedc290e0cc6408bb298a587c3c8129
-      internalID: -1601710054
+      spriteID: 380bc864ca74fec41a7fac041c950d0f
+      internalID: -1822305641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_11
+      name: LowAttack_11
       rect:
         serializedVersion: 2
-        x: 624
-        y: 1049
-        width: 538
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c168a43ee546144a58eb133ba0092e5f
-      internalID: -215564471
+      spriteID: 8272f1bb601267c4186a95d17b0bc1a2
+      internalID: 1300755708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_12
+      name: LowAttack_12
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 1054
-        width: 455
-        height: 251
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0853e082396d4e2a833d83b0dbd3bbe
-      internalID: 1461711617
+      spriteID: 300dc3b8bf8ac1448b43931eae40c7b9
+      internalID: 63959534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_13
+      name: LowAttack_13
       rect:
         serializedVersion: 2
-        x: 1679
-        y: 1054
-        width: 407
-        height: 251
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d22b979083b864d569302bc95f8ec4b2
-      internalID: 227429466
+      spriteID: f6b077cea94afed499e05d850234e06a
+      internalID: -174772116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_14
+      name: LowAttack_14
       rect:
         serializedVersion: 2
-        x: 242
-        y: 511
-        width: 121
-        height: 410
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e072f5b26cad5412e87885c3f7dbda0e
-      internalID: -597912231
+      spriteID: b53a0c343926a36498aeaf59b34d2c12
+      internalID: 944837674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_15
+      name: LowAttack_15
       rect:
         serializedVersion: 2
-        x: 481
-        y: 484
-        width: 182
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c950d2c210bb1411784abbadb352545e
-      internalID: -1225199475
+      spriteID: e91151642f1667443a7a2389df1aacc7
+      internalID: 1152275302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_16
+      name: LowAttack_16
       rect:
         serializedVersion: 2
-        x: 856
-        y: 511
-        width: 120
-        height: 454
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4e0b8347c954afda7a66b3506e7fac
-      internalID: 1680072609
+      spriteID: a402a07dc71edad48a0c7dfa19a1c68f
+      internalID: 1843377191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_17
+      name: LowAttack_17
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 484
-        width: 182
-        height: 410
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc862607b289b49c4a672a0bfb2af0c5
-      internalID: 1139028227
+      spriteID: 187e0c4f934e2d940a06aee3bc70f344
+      internalID: -1816497409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_18
+      name: LowAttack_18
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 512
-        width: 120
-        height: 452
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a1ae1ecf9467426a81d88dc6b68439d
-      internalID: 2050855579
+      spriteID: fe5b7e58f04f7564db4edb058a082920
+      internalID: 262364709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_19
+      name: LowAttack_19
       rect:
         serializedVersion: 2
-        x: 1709
-        y: 484
-        width: 182
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 604f32fc9cee7461a9d44f485c8c3204
-      internalID: -771681144
+      spriteID: c5ece73196e9a884092a98a71c0781a2
+      internalID: -2067613796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_20
+      name: LowAttack_20
       rect:
         serializedVersion: 2
-        x: 51
-        y: 145
-        width: 2042
-        height: 260
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f999fdee0c1d4a2caf6141e3ab6e772
-      internalID: -559507621
+      spriteID: 616eac1bb4b0d43429f2ce85d998f075
+      internalID: -352839302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowAttack_21
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477c15563a7b4a4dbf7fa702760aafc
+      internalID: -1896909024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowAttack_22
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03b8bb37ded60e4dac974922e3cf876
+      internalID: -1404226014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowAttack_23
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63d49c97b389fe48a2bb9da6ed07eed
+      internalID: 630528630
       vertices: []
       indices: 
       edges: []
@@ -587,27 +624,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      platform2Sheet_0: 852741801
-      platform2Sheet_1: 2137336713
-      platform2Sheet_10: -1601710054
-      platform2Sheet_11: -215564471
-      platform2Sheet_12: 1461711617
-      platform2Sheet_13: 227429466
-      platform2Sheet_14: -597912231
-      platform2Sheet_15: -1225199475
-      platform2Sheet_16: 1680072609
-      platform2Sheet_17: 1139028227
-      platform2Sheet_18: 2050855579
-      platform2Sheet_19: -771681144
-      platform2Sheet_2: -1297511403
-      platform2Sheet_20: -559507621
-      platform2Sheet_3: 1520441743
-      platform2Sheet_4: 379811107
-      platform2Sheet_5: 897787095
-      platform2Sheet_6: -130408425
-      platform2Sheet_7: -2085217484
-      platform2Sheet_8: -869511597
-      platform2Sheet_9: -1783870756
+      LowAttack_0: -448236761
+      LowAttack_1: 1913372676
+      LowAttack_10: -1822305641
+      LowAttack_11: 1300755708
+      LowAttack_12: 63959534
+      LowAttack_13: -174772116
+      LowAttack_14: 944837674
+      LowAttack_15: 1152275302
+      LowAttack_16: 1843377191
+      LowAttack_17: -1816497409
+      LowAttack_18: 262364709
+      LowAttack_19: -2067613796
+      LowAttack_2: 900222911
+      LowAttack_20: -352839302
+      LowAttack_21: -1896909024
+      LowAttack_22: -1404226014
+      LowAttack_23: 630528630
+      LowAttack_3: 500051588
+      LowAttack_4: 512389702
+      LowAttack_5: -453162576
+      LowAttack_6: 62756489
+      LowAttack_7: 631554345
+      LowAttack_8: -527615584
+      LowAttack_9: -1109155609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25ced186f57dd43408bd7d64a33f61fe
+guid: 091d1ae3f631bf545b1720de4d38bc1f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -106,472 +106,530 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: platform2Sheet_0
+      name: MidAttack_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 1731
-        width: 347
-        height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7e65a74678f84932a8b103c7752d292
-      internalID: 852741801
+      spriteID: 04e2f7ea28c02384db5e76e84c3ca19a
+      internalID: 236958847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_1
+      name: MidAttack_1
       rect:
         serializedVersion: 2
-        x: 492
-        y: 1772
-        width: 249
-        height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67c5be4066e124fb885277b19ff1b69e
-      internalID: 2137336713
+      spriteID: 2d96968b9344f7e4f9643c3ca9ea5d0c
+      internalID: 477096658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_2
+      name: MidAttack_2
       rect:
         serializedVersion: 2
-        x: 840
-        y: 1702
-        width: 255
-        height: 165
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b49c3d2ed0de34353a0d1bcc038093fd
-      internalID: -1297511403
+      spriteID: c27ee9b3d303e8049b106a813304546b
+      internalID: 482202007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_3
+      name: MidAttack_3
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 1732
-        width: 340
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9972e395e3da5481598784c6da5461c1
-      internalID: 1520441743
+      spriteID: 2b47e231b031f434faa1199591397587
+      internalID: -1943599709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_4
+      name: MidAttack_4
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 1727
-        width: 221
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 745a5baba3a8c4e398eb4467775f52d0
-      internalID: 379811107
+      spriteID: 5086615454ad1e5439c69a70628d6c3f
+      internalID: 1367368029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_5
+      name: MidAttack_5
       rect:
         serializedVersion: 2
-        x: 1912
-        y: 1730
-        width: 166
-        height: 162
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1244b0696128240799967e979719424b
-      internalID: 897787095
+      spriteID: cbb940cd747d41e44b105429eabd586e
+      internalID: 422484753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_6
+      name: MidAttack_6
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1380
-        width: 523
-        height: 188
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6894b3ac65bfe4734bd08b52b89e169d
-      internalID: -130408425
+      spriteID: db843adde10870c4486549408faaede6
+      internalID: 609115819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_7
+      name: MidAttack_7
       rect:
         serializedVersion: 2
-        x: 627
-        y: 1379
-        width: 536
-        height: 189
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11ded7dba3415443384693b0ce714dd1
-      internalID: -2085217484
+      spriteID: 38642a262e532b246be5fc04a5393940
+      internalID: 1046789905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_8
+      name: MidAttack_8
       rect:
         serializedVersion: 2
-        x: 1222
-        y: 1380
-        width: 412
-        height: 187
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2fc13079da9744808e54ae6530614d1
-      internalID: -869511597
+      spriteID: f54db33985efafe4d9d23e6f604d87b0
+      internalID: 605037932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_9
+      name: MidAttack_9
       rect:
         serializedVersion: 2
-        x: 1684
-        y: 1382
-        width: 406
-        height: 186
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c41c7efe7f79b44069ef27549bbae8dd
-      internalID: -1783870756
+      spriteID: 9700afcbf470b1748932d18ece1e852e
+      internalID: -1236799522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_10
+      name: MidAttack_10
       rect:
         serializedVersion: 2
-        x: 39
-        y: 1054
-        width: 481
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccedc290e0cc6408bb298a587c3c8129
-      internalID: -1601710054
+      spriteID: a7fef37ffe6e26c4cbd4e9b93c85210c
+      internalID: 1196655618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_11
+      name: MidAttack_11
       rect:
         serializedVersion: 2
-        x: 624
-        y: 1049
-        width: 538
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c168a43ee546144a58eb133ba0092e5f
-      internalID: -215564471
+      spriteID: f1f52c2057938ae44866f5549591072e
+      internalID: 1633754363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_12
+      name: MidAttack_12
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 1054
-        width: 455
-        height: 251
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0853e082396d4e2a833d83b0dbd3bbe
-      internalID: 1461711617
+      spriteID: bd185fa262c2fde49802aac66f14e0bd
+      internalID: 677771402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_13
+      name: MidAttack_13
       rect:
         serializedVersion: 2
-        x: 1679
-        y: 1054
-        width: 407
-        height: 251
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d22b979083b864d569302bc95f8ec4b2
-      internalID: 227429466
+      spriteID: 91879dbd5b7092547a0a4718893ef492
+      internalID: 116706867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_14
+      name: MidAttack_14
       rect:
         serializedVersion: 2
-        x: 242
-        y: 511
-        width: 121
-        height: 410
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e072f5b26cad5412e87885c3f7dbda0e
-      internalID: -597912231
+      spriteID: 3be92a145eacd534cbea6eca7484bbf0
+      internalID: 108164537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_15
+      name: MidAttack_15
       rect:
         serializedVersion: 2
-        x: 481
-        y: 484
-        width: 182
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c950d2c210bb1411784abbadb352545e
-      internalID: -1225199475
+      spriteID: 10ea448ccd1827c408daa45e400c6268
+      internalID: 854846205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_16
+      name: MidAttack_16
       rect:
         serializedVersion: 2
-        x: 856
-        y: 511
-        width: 120
-        height: 454
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4e0b8347c954afda7a66b3506e7fac
-      internalID: 1680072609
+      spriteID: 7694dde88ee628644abf1b464e49e1eb
+      internalID: -1462925677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_17
+      name: MidAttack_17
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 484
-        width: 182
-        height: 410
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc862607b289b49c4a672a0bfb2af0c5
-      internalID: 1139028227
+      spriteID: dcd03e1f1eee9424cbc47e43b3329e1e
+      internalID: -1870953473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_18
+      name: MidAttack_18
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 512
-        width: 120
-        height: 452
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a1ae1ecf9467426a81d88dc6b68439d
-      internalID: 2050855579
+      spriteID: e4ec0d1a91f52304f94d1385fd39f198
+      internalID: 881545171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_19
+      name: MidAttack_19
       rect:
         serializedVersion: 2
-        x: 1709
-        y: 484
-        width: 182
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 604f32fc9cee7461a9d44f485c8c3204
-      internalID: -771681144
+      spriteID: b485e027df068a448b2b26870b01664b
+      internalID: -1636122950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_20
+      name: MidAttack_20
       rect:
         serializedVersion: 2
-        x: 51
-        y: 145
-        width: 2042
-        height: 260
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f999fdee0c1d4a2caf6141e3ab6e772
-      internalID: -559507621
+      spriteID: dac4826be62e6fd458bcf58c8334b267
+      internalID: -1776961058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidAttack_21
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859a1bb566cd972478020dbd27afd3bd
+      internalID: 207379199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidAttack_22
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e348e29ac5143940bc70d78896a53a8
+      internalID: -1587457588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidAttack_23
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdccad89bd009d439db50308a9be034
+      internalID: 58437840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MidAttack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1177
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7768355afc8a4774581d3a1f9b38d7ae
+      internalID: 1052280836
       vertices: []
       indices: 
       edges: []
@@ -587,27 +645,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      platform2Sheet_0: 852741801
-      platform2Sheet_1: 2137336713
-      platform2Sheet_10: -1601710054
-      platform2Sheet_11: -215564471
-      platform2Sheet_12: 1461711617
-      platform2Sheet_13: 227429466
-      platform2Sheet_14: -597912231
-      platform2Sheet_15: -1225199475
-      platform2Sheet_16: 1680072609
-      platform2Sheet_17: 1139028227
-      platform2Sheet_18: 2050855579
-      platform2Sheet_19: -771681144
-      platform2Sheet_2: -1297511403
-      platform2Sheet_20: -559507621
-      platform2Sheet_3: 1520441743
-      platform2Sheet_4: 379811107
-      platform2Sheet_5: 897787095
-      platform2Sheet_6: -130408425
-      platform2Sheet_7: -2085217484
-      platform2Sheet_8: -869511597
-      platform2Sheet_9: -1783870756
+      MidAttack_0: 236958847
+      MidAttack_1: 477096658
+      MidAttack_10: 1196655618
+      MidAttack_11: 1633754363
+      MidAttack_12: 677771402
+      MidAttack_13: 116706867
+      MidAttack_14: 108164537
+      MidAttack_15: 854846205
+      MidAttack_16: -1462925677
+      MidAttack_17: -1870953473
+      MidAttack_18: 881545171
+      MidAttack_19: -1636122950
+      MidAttack_2: 482202007
+      MidAttack_20: -1776961058
+      MidAttack_21: 207379199
+      MidAttack_22: -1587457588
+      MidAttack_23: 58437840
+      MidAttack_24: 1052280836
+      MidAttack_3: -1943599709
+      MidAttack_4: 1367368029
+      MidAttack_5: 422484753
+      MidAttack_6: 609115819
+      MidAttack_7: 1046789905
+      MidAttack_8: 605037932
+      MidAttack_9: -1236799522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

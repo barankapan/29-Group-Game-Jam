@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25ced186f57dd43408bd7d64a33f61fe
+guid: e1cf9a9f9121126459a8fc12f3b0d5f4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -106,472 +106,530 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: platform2Sheet_0
+      name: Stun_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 1731
-        width: 347
-        height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7e65a74678f84932a8b103c7752d292
-      internalID: 852741801
+      spriteID: 96d1e99453a7171429d08f68e9248683
+      internalID: -876332332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_1
+      name: Stun_1
       rect:
         serializedVersion: 2
-        x: 492
-        y: 1772
-        width: 249
-        height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67c5be4066e124fb885277b19ff1b69e
-      internalID: 2137336713
+      spriteID: a8670cbcd2690094b97fe0a5a37c83a1
+      internalID: -808498142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_2
+      name: Stun_2
       rect:
         serializedVersion: 2
-        x: 840
-        y: 1702
-        width: 255
-        height: 165
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b49c3d2ed0de34353a0d1bcc038093fd
-      internalID: -1297511403
+      spriteID: 217b3e35d26179848a8ebe9536f85fd4
+      internalID: -667425676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_3
+      name: Stun_3
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 1732
-        width: 340
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 3679
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9972e395e3da5481598784c6da5461c1
-      internalID: 1520441743
+      spriteID: 7167affb99bbd57489980bfde72ba735
+      internalID: -1370158188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_4
+      name: Stun_4
       rect:
         serializedVersion: 2
-        x: 1621
-        y: 1727
-        width: 221
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 745a5baba3a8c4e398eb4467775f52d0
-      internalID: 379811107
+      spriteID: 7d4504dd9282829448646fc114150c59
+      internalID: -504508409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_5
+      name: Stun_5
       rect:
         serializedVersion: 2
-        x: 1912
-        y: 1730
-        width: 166
-        height: 162
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1244b0696128240799967e979719424b
-      internalID: 897787095
+      spriteID: 25130934d996a3f4fb22f3954ac8a244
+      internalID: -1327078080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_6
+      name: Stun_6
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1380
-        width: 523
-        height: 188
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6894b3ac65bfe4734bd08b52b89e169d
-      internalID: -130408425
+      spriteID: 25fce0faf8b6c1f4cbfe28d981a4bca3
+      internalID: -158677727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_7
+      name: Stun_7
       rect:
         serializedVersion: 2
-        x: 627
-        y: 1379
-        width: 536
-        height: 189
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 3262
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11ded7dba3415443384693b0ce714dd1
-      internalID: -2085217484
+      spriteID: e1a98bd0fa039c445a364b0c7bf739ec
+      internalID: -160179769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_8
+      name: Stun_8
       rect:
         serializedVersion: 2
-        x: 1222
-        y: 1380
-        width: 412
-        height: 187
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2fc13079da9744808e54ae6530614d1
-      internalID: -869511597
+      spriteID: 7eb90110271df294f85943528666b0a9
+      internalID: 1709368858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_9
+      name: Stun_9
       rect:
         serializedVersion: 2
-        x: 1684
-        y: 1382
-        width: 406
-        height: 186
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c41c7efe7f79b44069ef27549bbae8dd
-      internalID: -1783870756
+      spriteID: dbcc2951aab9bb5448729ad5eebbcdc8
+      internalID: 1119086233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_10
+      name: Stun_10
       rect:
         serializedVersion: 2
-        x: 39
-        y: 1054
-        width: 481
-        height: 301
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccedc290e0cc6408bb298a587c3c8129
-      internalID: -1601710054
+      spriteID: f279519bece05d748beff6bd97d29bcf
+      internalID: 2094932548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_11
+      name: Stun_11
       rect:
         serializedVersion: 2
-        x: 624
-        y: 1049
-        width: 538
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2845
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c168a43ee546144a58eb133ba0092e5f
-      internalID: -215564471
+      spriteID: 63bb128bafd6a7d4daabae369101f438
+      internalID: 199798428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_12
+      name: Stun_12
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 1054
-        width: 455
-        height: 251
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0853e082396d4e2a833d83b0dbd3bbe
-      internalID: 1461711617
+      spriteID: 0e23676c676e9dc48aa907e3d916c9a9
+      internalID: 230600867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_13
+      name: Stun_13
       rect:
         serializedVersion: 2
-        x: 1679
-        y: 1054
-        width: 407
-        height: 251
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d22b979083b864d569302bc95f8ec4b2
-      internalID: 227429466
+      spriteID: efd4a3e1c902f204caa5936909d2338e
+      internalID: -34167914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_14
+      name: Stun_14
       rect:
         serializedVersion: 2
-        x: 242
-        y: 511
-        width: 121
-        height: 410
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e072f5b26cad5412e87885c3f7dbda0e
-      internalID: -597912231
+      spriteID: ce3bb249f353d114dab3204d221b2c52
+      internalID: 1207089248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_15
+      name: Stun_15
       rect:
         serializedVersion: 2
-        x: 481
-        y: 484
-        width: 182
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2428
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c950d2c210bb1411784abbadb352545e
-      internalID: -1225199475
+      spriteID: 1e072c1983242c3458963aae2ecf5c97
+      internalID: -228122330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_16
+      name: Stun_16
       rect:
         serializedVersion: 2
-        x: 856
-        y: 511
-        width: 120
-        height: 454
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4e0b8347c954afda7a66b3506e7fac
-      internalID: 1680072609
+      spriteID: 0a9be1cbadd97804ab024ed66eeac42a
+      internalID: -396444274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_17
+      name: Stun_17
       rect:
         serializedVersion: 2
-        x: 1133
-        y: 484
-        width: 182
-        height: 410
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 985
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc862607b289b49c4a672a0bfb2af0c5
-      internalID: 1139028227
+      spriteID: c9f5e5cf140685f40bed7e5f3fadae57
+      internalID: 1610117846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_18
+      name: Stun_18
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 512
-        width: 120
-        height: 452
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1970
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a1ae1ecf9467426a81d88dc6b68439d
-      internalID: 2050855579
+      spriteID: 9d4effa4c9eabe14d89d43c87e031e9c
+      internalID: 669604943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_19
+      name: Stun_19
       rect:
         serializedVersion: 2
-        x: 1709
-        y: 484
-        width: 182
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2955
+        y: 2011
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 604f32fc9cee7461a9d44f485c8c3204
-      internalID: -771681144
+      spriteID: 3bd812ffeea33aa48924ad6460eccd78
+      internalID: 2028530079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: platform2Sheet_20
+      name: Stun_20
       rect:
         serializedVersion: 2
-        x: 51
-        y: 145
-        width: 2042
-        height: 260
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f999fdee0c1d4a2caf6141e3ab6e772
-      internalID: -559507621
+      spriteID: 35e3f61d256d6c3439faa5186b63ea7d
+      internalID: -1079470404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stun_21
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7a1871c3a3b7e4aa039e6d22c6b6fc
+      internalID: -855090600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stun_22
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f813156be5508294c93e6a707c09986c
+      internalID: -129084186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stun_23
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 1594
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa96e768ebd3ea48b4c3abce14fb438
+      internalID: 1208170257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stun_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1177
+        width: 985
+        height: 417
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f1981fdc02f9746ac655376e0772a5
+      internalID: -937727660
       vertices: []
       indices: 
       edges: []
@@ -587,27 +645,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      platform2Sheet_0: 852741801
-      platform2Sheet_1: 2137336713
-      platform2Sheet_10: -1601710054
-      platform2Sheet_11: -215564471
-      platform2Sheet_12: 1461711617
-      platform2Sheet_13: 227429466
-      platform2Sheet_14: -597912231
-      platform2Sheet_15: -1225199475
-      platform2Sheet_16: 1680072609
-      platform2Sheet_17: 1139028227
-      platform2Sheet_18: 2050855579
-      platform2Sheet_19: -771681144
-      platform2Sheet_2: -1297511403
-      platform2Sheet_20: -559507621
-      platform2Sheet_3: 1520441743
-      platform2Sheet_4: 379811107
-      platform2Sheet_5: 897787095
-      platform2Sheet_6: -130408425
-      platform2Sheet_7: -2085217484
-      platform2Sheet_8: -869511597
-      platform2Sheet_9: -1783870756
+      Stun_0: -876332332
+      Stun_1: -808498142
+      Stun_10: 2094932548
+      Stun_11: 199798428
+      Stun_12: 230600867
+      Stun_13: -34167914
+      Stun_14: 1207089248
+      Stun_15: -228122330
+      Stun_16: -396444274
+      Stun_17: 1610117846
+      Stun_18: 669604943
+      Stun_19: 2028530079
+      Stun_2: -667425676
+      Stun_20: -1079470404
+      Stun_21: -855090600
+      Stun_22: -129084186
+      Stun_23: 1208170257
+      Stun_24: -937727660
+      Stun_3: -1370158188
+      Stun_4: -504508409
+      Stun_5: -1327078080
+      Stun_6: -158677727
+      Stun_7: -160179769
+      Stun_8: 1709368858
+      Stun_9: 1119086233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
