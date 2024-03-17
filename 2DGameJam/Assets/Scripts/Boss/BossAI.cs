@@ -69,6 +69,7 @@ public class BossAI : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 winScreen.SetActive(true);
+                FindAnyObjectByType<ShowCredit>().Exectute();
             }
         }
     }
