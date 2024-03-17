@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class RandomArrowSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Transform[] arrows;
+    public float t = 7f;
+    private float x;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (x > 0)
+        {
+            x -= Time.deltaTime;
+        }
+        else
+        {
+            for (int i = 0; i < arrows.Length; i++)
+            {
+                arrows[i].gameObject.SetActive(true);
+            }
+            x = t;
+        }
     }
 }

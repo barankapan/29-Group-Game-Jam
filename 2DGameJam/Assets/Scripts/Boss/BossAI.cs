@@ -15,6 +15,8 @@ public class BossAI : MonoBehaviour
     [SerializeField] Vector2 downStone;
     [SerializeField] Vector2 midStone;
     [SerializeField] Vector2 topStone;
+
+    public GameObject winScreen;
     private void Awake()
     {
         StartCoroutine(boss());
@@ -23,7 +25,7 @@ public class BossAI : MonoBehaviour
     IEnumerator boss()
     {
 
-        WaitForSeconds sec = new WaitForSeconds(2f);
+        WaitForSeconds sec = new WaitForSeconds(1.5f);
         //Animasyon Idle
         bossAnimator.SetBool("Idle", true);
         yield return new WaitForSeconds(3f);
@@ -50,20 +52,10 @@ public class BossAI : MonoBehaviour
             bossAnimator.ResetTrigger("Down");
             ThrowStone(downStone);
             yield return sec;
-            // bossAnimator.SetTrigger("Ulti");
-            // yield return sec;
-            // bossAnimator.ResetTrigger("Ulti");
-            // ThrowStone(topStone);
-            // yield return sec;
             isWeak = true;
             bossAnimator.SetBool("Idle", false);
             yield return new WaitForSeconds(5f);
         }
-        //Yukarý Saldýrý
-        //Orta Saldýrý
-        //Aþaðý saldýrý
-        //Yorulma
-        //Yere Saldýrý
     }
 
 
@@ -72,6 +64,12 @@ public class BossAI : MonoBehaviour
         if (collision.CompareTag("Bullet"))
         {
             bossHealth -= (isWeak ? 20 : 10);
+            collision.gameObject.SetActive(false);
+            if (bossHealth < 0)
+            {
+                gameObject.SetActive(false);
+                winScreen.SetActive(true);
+            }
         }
     }
     void ThrowStone(Vector2 pos)

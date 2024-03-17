@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,6 +18,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene((int)scene);
     }
 
+    public void LoadCurrentScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 }
 
-public enum SceneEnum { menuScene, escapeScene, attackScene, bossScene }
+public enum SceneEnum { menuScene, attackScene, bossScene,creditScene }

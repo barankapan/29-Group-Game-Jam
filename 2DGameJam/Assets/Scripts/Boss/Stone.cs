@@ -20,7 +20,7 @@ public class Stone : MonoBehaviour
         float t = 0;
         while (t < 10)
         {
-            transform.position += Time.deltaTime * direction * 10f;
+            transform.position += Time.deltaTime * direction * 15f;
             t += Time.deltaTime;
             yield return null;
         }

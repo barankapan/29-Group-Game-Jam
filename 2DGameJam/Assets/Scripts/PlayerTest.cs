@@ -5,7 +5,7 @@ public class PlayerTest : MonoBehaviour
 {
     public static PlayerTest instance;
     [SerializeField] private int health = 100;
-    [SerializeField] private int arrowCount = 0;
+    [SerializeField] private int arrowCount = 20;
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
     private void Awake()
@@ -24,6 +24,7 @@ public class PlayerTest : MonoBehaviour
         if (health <= 0)
         {
             GameState.changeState(state.pause);
+            SceneLoader.Instance.LoadCurrentScene();
         }
         health = Mathf.Clamp(health, 0, 100);
         UIManager.Instance.UpdateHealthBar(health);

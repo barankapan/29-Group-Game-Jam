@@ -52,7 +52,7 @@ public class UIManager : MonoBehaviour
 
     private void btn_Play()
     {
-        SceneLoader.Instance.LoadLevel(SceneEnum.escapeScene);
+        SceneLoader.Instance.LoadLevel(SceneEnum.attackScene);
     }
 
     private void btn_Exit()

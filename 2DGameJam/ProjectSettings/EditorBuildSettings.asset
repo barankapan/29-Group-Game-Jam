@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 10e307919a3e7ad4c8b7175b3ea67808
   - enabled: 1
-    path: Assets/Scenes/EscapeScene.unity
-    guid: 78c55ab349ef25244a01cf5b0242f30f
-  - enabled: 1
     path: Assets/Scenes/AttackScene.unity
     guid: 97fd94c1144421645a258e1702d6ade3
   - enabled: 1
     path: Assets/Scenes/BossScene.unity
     guid: c5788919f011d5749a37b709b9bbe235
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: 5411a4f26a991564795d663fe4410add
   m_configObjects: {}
