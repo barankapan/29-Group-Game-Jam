@@ -5,6 +5,16 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance;
     private AudioSource gameAudio;
 
+    [Header("Musics")]
+    [SerializeField] AudioClip EscapeSceneMusic;
+    [SerializeField] AudioClip AttackSeceneMusic;
+    [SerializeField] AudioClip BossSceneMusic;
+
+    [Header("SoundEffects")]
+    [SerializeField] AudioClip walk;
+    [SerializeField] AudioClip Enemy;
+
+
     private void Awake()
     {
         instance = this;

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6b972deb8a2cab44cbf24f1a3837d80b
+guid: 8df4161f784976a47a23f058e2437983
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 350
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,55 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Arrow_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1920
-        width: 1920
-        height: 1920
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a31d1375ca406f04292155d2a89b7fcb
-      internalID: -1175384370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arrow_1
-      rect:
-        serializedVersion: 2
-        x: 1920
-        y: 1920
-        width: 1920
-        height: 1920
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81fac1ea741018746aa2a89fbe39a8a1
-      internalID: 2060216634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Arrow_2
+      name: Jump-Sheet-export_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1920
+        width: 1024
+        height: 1024
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d42990057629d4f48838569ce0612dc4
-      internalID: 330437928
+      spriteID: 2061f407d69034e4884751bf4b5497a0
+      internalID: -1606062829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Arrow_3
+      name: Jump-Sheet-export_1
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 1024
         y: 0
-        width: 1920
-        height: 1920
+        width: 1024
+        height: 1024
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +145,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 875012e1b7ad1444c8a4e8f97059bc56
-      internalID: -2081867768
+      spriteID: 488192d34a6dde540b41a79f918ff537
+      internalID: -326202631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Sheet-export_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b160882849ab5624e944d9cc2d31b6be
+      internalID: 672144079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Sheet-export_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411c76386e6bf3f43995b22113d55136
+      internalID: 1258464100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Sheet-export_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953e975462997bb4895275a697bf7299
+      internalID: 299344810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-Sheet-export_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5897eef521321c84bbe672d61b249117
+      internalID: -11224531
       vertices: []
       indices: 
       edges: []
@@ -204,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Arrow_0: -1175384370
-      Arrow_1: 2060216634
-      Arrow_2: 330437928
-      Arrow_3: -2081867768
+      Jump-Sheet-export_0: -1606062829
+      Jump-Sheet-export_1: -326202631
+      Jump-Sheet-export_2: 672144079
+      Jump-Sheet-export_3: 1258464100
+      Jump-Sheet-export_4: 299344810
+      Jump-Sheet-export_5: -11224531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
