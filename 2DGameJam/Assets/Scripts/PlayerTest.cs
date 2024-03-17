@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerTest : MonoBehaviour
@@ -24,7 +25,17 @@ public class PlayerTest : MonoBehaviour
         {
             GameState.changeState(state.pause);
         }
+        health = Mathf.Clamp(health, 0, 100);
         UIManager.Instance.UpdateHealthBar(health);
+    }
+    public void UpdateArrowCount(int count)
+    {
+        arrowCount += count;
+        UIManager.Instance.UpdateArrowCount(arrowCount);
+    }
+    public int getArrowCount()
+    {
+        return arrowCount;
     }
     public Vector3 getPosition()
     {

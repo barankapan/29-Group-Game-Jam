@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     private CinemachineVirtualCamera[] CamList;
     [SerializeField]
     private cameraType startCamera;
+    public Vector3 spawnPos;
 
     [Header("PLAYER")]
     [SerializeField]
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
         if (Player == null)
         {
             Player = FindObjectOfType<PlayerTest>().transform;
+            spawnPos = Player.position;
         }
         GameState.changeState(state.play);
         ChangeCamera(startCamera, Player);

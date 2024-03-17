@@ -31,6 +31,11 @@ public class DialogManager : MonoBehaviour
         StartCoroutine(multiExecute(dialogList));
     }
 
+    public void MultiDialog(multiDialog dialogList, cameraType type)
+    {
+        StartCoroutine(multiExecute(dialogList));
+    }
+
     private void CloseDialog()
     {
         DialogPanel.SetActive(false);
