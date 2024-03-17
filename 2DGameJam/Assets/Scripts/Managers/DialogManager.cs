@@ -27,7 +27,7 @@ public class DialogManager : MonoBehaviour
 
     public void MultiDialog(multiDialog dialogList)
     {
-        GameManager.Instance.ChangeCamera(cameraType.DailogCamera, PlayerTest.instance.transform, Vector3.zero);
+        GameManager.Instance.ChangeCamera(cameraType.DailogCamera, PlayerTest.instance.transform);
         StartCoroutine(multiExecute(dialogList));
     }
 
@@ -46,6 +46,6 @@ public class DialogManager : MonoBehaviour
             yield return new WaitForSeconds(list.multiDialogList[i].duration + 0.2f);
         }
         GameState.changeState(state.play);
-        GameManager.Instance.ChangeCamera(cameraType.GameplayCamera, PlayerTest.instance.transform, Vector3.zero);
+        GameManager.Instance.ChangeCamera(cameraType.GameplayCamera, PlayerTest.instance.transform);
     }
 }

@@ -4,12 +4,13 @@ using UnityEngine;
 public class multiDialog : ScriptableObject
 {
     public Dialog[] multiDialogList;
+
 }
 
 [System.Serializable]
-public class Dialog
+public struct Dialog
 {
-    [TextArea] public string text = "Hello World";
+    [TextArea] public string text;
     public Sprite SpeakerImage;
-    public float duration = 1f;
+    public float duration;
 }

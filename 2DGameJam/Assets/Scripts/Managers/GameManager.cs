@@ -1,6 +1,4 @@
 using Cinemachine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -10,6 +8,8 @@ public class GameManager : MonoBehaviour
     [Header("CAMERAS")]
     [SerializeField]
     private CinemachineVirtualCamera[] CamList;
+    [SerializeField]
+    private cameraType startCamera;
 
     [Header("PLAYER")]
     [SerializeField]
@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
     }
     private void Start()
     {
@@ -26,10 +27,11 @@ public class GameManager : MonoBehaviour
             Player = FindObjectOfType<PlayerTest>().transform;
         }
         GameState.changeState(state.play);
-        ChangeCamera(cameraType.GameplayCamera, Player, Vector3.zero);
+        ChangeCamera(startCamera, Player);
+
     }
 
-    public void ChangeCamera(cameraType type, Transform target, Vector3 pos)
+    public void ChangeCamera(cameraType type, Transform target)
     {
         int cam = (int)type;
         for (int i = 0; i < CamList.Length; i++)
@@ -50,7 +52,6 @@ public class GameManager : MonoBehaviour
                 break;
             case cameraType.StaticCamera:
                 CamList[cam].Follow = null;
-                CamList[cam].transform.position = pos;
                 break;
         }
     }
