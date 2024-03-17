@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: StartDiaolog
+  m_Name: DownDialog
   m_EditorClassIdentifier: Assembly-CSharp::multiDialog
   multiDialogList:
-  - text: "Hayaletler baykusumu kacirdi ve onu kurtarmam lazim.\r"
+  - text: "Bu yol asagi gidiyor ve her bir katta da dusman var. Yak\u0131nlasmis
+      olmal\u0131y\u0131z."
     SpeakerImage: {fileID: 21300000, guid: 1bf8fee072e941948b811accf9f0ac9d, type: 3}
     duration: 3
-  - text: Her yerde hayaletler var. Suradaki oku alarak onlari oldurebilirim.
-    SpeakerImage: {fileID: 21300000, guid: 1bf8fee072e941948b811accf9f0ac9d, type: 3}
-    duration: 2
