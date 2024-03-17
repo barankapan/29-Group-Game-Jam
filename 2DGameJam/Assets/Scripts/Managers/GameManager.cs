@@ -55,6 +55,11 @@ public class GameManager : MonoBehaviour
                 break;
         }
     }
+
+    public void ChangeScene(SceneEnum scene)
+    {
+        SceneLoader.Instance.LoadLevel(scene);
+    }
 }
 
 
